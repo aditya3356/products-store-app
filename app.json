@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ProductsStore",
+    "name": "Products Store",
     "slug": "ProductsStore",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aditya3356.ProductsStore"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e52c6fe5-01ab-40ca-9bfc-40945aeb382a"
+      }
     }
   }
 }
